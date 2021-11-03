@@ -1,25 +1,27 @@
-import {BrowserRouter as Switch, Router, Route } from "react-router-dom";
-import React from "react"
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./Header";
 
-let App=()=> {
+let App = () => {
   return (
     <Router>
-     <div className="app">
-       <Switch>
-         <Route path="/checkout">
-          <h1>checkout</h1>
-         </Route>
-         <Route path = "/login">
-          <h1>login</h1>
-         </Route>
-         <Route path = "/">
-          <h1>Mein khali hu</h1>
-         </Route>
-       </Switch>
-    </div>
-
+      <div className="app">
+        <Switch>
+          <Route path="/checkout">
+            <h1>this is a checkOut page</h1>
+          </Route>
+          <Route path="/login">
+            <h1>this is a login page</h1>
+          </Route>
+          <Route path="/">
+            <Header />
+            <h1>this is a home page</h1>
+          </Route>
+        </Switch>
+      </div>
     </Router>
   );
 }
 
 export default App;
+
