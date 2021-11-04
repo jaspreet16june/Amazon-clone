@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Home";
 import Header from "./Header";
 
 let App = () => {
@@ -15,6 +16,7 @@ let App = () => {
           </Route>
           <Route path="/">
             <Header />
+            <Home />
             <h1>this is a home page</h1>
           </Route>
         </Switch>
