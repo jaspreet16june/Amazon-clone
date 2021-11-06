@@ -51,6 +51,14 @@ function Home() {
             price={219.99}
           />
         </div>
+        <div className="home_row">
+          <Product
+            image="https://m.media-amazon.com/images/I/61MCnLb9aNL._AC_UL320_.jpg"
+            name="ZEPLIN ELECTRONICS USB Flash Drives 128GB Thumb Drive Data Storage Device - Black"
+            rating={5}
+            price={14.99}
+          />
+        </div>
       </div>
     );
 }
