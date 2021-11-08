@@ -8,7 +8,8 @@ import { useStateValue } from './StateProvider';
 let Header = () => {
 
   const [{basket}]=useStateValue();
- console.log(basket) 
+  
+  console.log(basket) 
   return (
     <div className="header">
       {/* img of logo */}

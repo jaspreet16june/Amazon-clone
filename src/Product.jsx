@@ -7,7 +7,7 @@ function Product({id,name,image,rating,price}) {
   let addToBasket = ()=>{
     dispatch({
       type:"ADD_TO_BASKET",
-      items:{
+      item:{
         id:id,
         name:name,
         price:price,
