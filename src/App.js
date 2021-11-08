@@ -12,8 +12,8 @@ let App = () => {
       <div className="app">
         <Switch>
           <Route path="/checkout">
+            <Header />
             <Checkout />
-            <h1>this is a checkOut page</h1>
           </Route>
           <Route path="/login">
             <h1>this is a login page</h1>
@@ -21,7 +21,6 @@ let App = () => {
           <Route path="/">
             <Header />
             <Home />
-            <h1>this is a home page</h1>
           </Route>
         </Switch>
       </div>

@@ -1,5 +1,9 @@
-.checkout_ad{
-    width:100%;
-    margin-bottom: 20px;
-    /* max-height: 220px; */
+.checkout_ad {
+  /* width: 100%; */
+  margin-bottom: 20px;
+  /* max-height: 220px; */
+  width: 83.5rem;
+  height: 14rem;
+  margin-left: 14px;
+  margin-right: 14px;
 }
