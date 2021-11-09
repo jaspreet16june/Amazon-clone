@@ -1,9 +1,18 @@
-.checkout_ad {
-  /* width: 100%; */
-  margin-bottom: 20px;
-  /* max-height: 220px; */
-  width: 83.5rem;
+.checkout{
+  display: flex;
+  padding:20px;
+  background-color: white;
+  height: max-content ;
+}
+.checkout_ad{
+  width:100%;
+  margin-bottom: 10px;
   height: 14rem;
   margin-left: 14px;
   margin-right: 14px;
+}
+.checkout-title{
+  margin-right:10px;
+  padding:10px;
+  border-bottom:1px solid lightgray;
 }
