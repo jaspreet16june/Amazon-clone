@@ -39,8 +39,8 @@ const Checkout = () => {
         </div>
         {basket.length > 0 && (
           <div className="checkout_right">
-            <h1>hiiiii subtotal this side </h1>
-            {/* <Subtotal /> */}
+           
+            <Subtotal />
           </div>
         )}
       </div>
